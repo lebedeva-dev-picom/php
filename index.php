@@ -2,11 +2,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Все классы в одном файле</title>
+        <title>Заголовочный файл</title>
     </head>
     <body>
         <?php
-        require_once 'allClasses.php';
+        require_once 'header.php';
+        
         $a = new Class1();
         $b = new Class2();
         ?>
